@@ -628,8 +628,8 @@ a {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* The list of works */
-.catalogue {
+/* Portfolio - the list of cases */
+.portfolio-cases {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -658,12 +658,12 @@ a {
   border-top: none;
 }
 
-.catalogue .description {
+.portfolio-cases .description {
   position: relative;
   overflow: hidden;
 }
 
-.catalogue .overlay {
+.portfolio-cases .overlay {
   position: absolute;
   display: inline-block;
   content: "";
@@ -675,7 +675,7 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.catalogue .overlay-text {
+.portfolio-cases .overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -686,11 +686,11 @@ a {
   background-color: var(--overlay-background);
 }
 
-.catalogue .catalogue-list:hover .overlay {
+.portfolio-cases .catalogue-list:hover .overlay {
   transform: translateY(0);
 }
 
-.catalogue h3 {
+.portfolio-cases h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -700,7 +700,7 @@ a {
   margin-bottom: 4px;
 }
 
-.catalogue p {
+.portfolio-cases p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
