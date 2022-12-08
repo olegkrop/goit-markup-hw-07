@@ -682,7 +682,7 @@ a {
   overflow: hidden;
 }
 
-.overlay {
+.portfolio__overlay {
   position: absolute;
   display: inline-block;
   content: "";
@@ -705,7 +705,7 @@ a {
   background-color: var(--overlay-background);
 }
 
-.portfolio__cases-list:hover .overlay {
+.portfolio__cases-list:hover .portfolio__overlay {
   transform: translateY(0);
 }
 
