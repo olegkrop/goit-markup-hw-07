@@ -629,7 +629,7 @@ a {
 }
 
 /* Portfolio - the list of cases */
-.portfolio-cases {
+.portfolio__cases {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -641,14 +641,14 @@ a {
   width: 370px;
 }
 
-.catalogue-link {
+.portfolio__case-link {
   display: block;
   text-decoration: none;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.catalogue-link:hover,
-.catalogue-link:focus {
+.portfolio__case-link:hover,
+.portfolio__case-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -658,12 +658,31 @@ a {
   border-top: none;
 }
 
-.portfolio-cases .description {
+.portfolio__cases h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  background-color: var(--white-color);
+  margin-bottom: 4px;
+}
+
+.portfolio__cases p {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+
+/* Portfolio - a case overlay */
+.portfolio__cases .description {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-cases .overlay {
+.portfolio__cases .overlay {
   position: absolute;
   display: inline-block;
   content: "";
@@ -675,7 +694,7 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-cases .overlay-text {
+.portfolio__cases .overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -686,26 +705,8 @@ a {
   background-color: var(--overlay-background);
 }
 
-.portfolio-cases .catalogue-list:hover .overlay {
+.portfolio__cases .catalogue-list:hover .overlay {
   transform: translateY(0);
-}
-
-.portfolio-cases h3 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-color);
-  background-color: var(--white-color);
-  margin-bottom: 4px;
-}
-
-.portfolio-cases p {
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-  background-color: var(--white-color);
 }
 
 /* Modal */
