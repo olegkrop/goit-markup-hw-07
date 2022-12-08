@@ -258,23 +258,7 @@ a {
   padding-left: 0;
 }
 
-.features h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-color);
-  margin-bottom: 10px;
-}
-
-.features p {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
-.features-block {
+.features__card {
   display: flex;
   width: 270px;
   height: 120px;
@@ -284,6 +268,22 @@ a {
   margin-right: 0;
   background-color: var(--team-background);
 }
+.features__subtittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+  margin-bottom: 10px;
+}
+
+.features__subtext {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 
 /* Header syle for <h2> */
 .title {
