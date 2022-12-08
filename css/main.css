@@ -677,12 +677,12 @@ a {
 }
 
 /* Portfolio - a case overlay */
-.portfolio__cases .description {
+.portfolio__overlay-item {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio__cases .overlay {
+.overlay {
   position: absolute;
   display: inline-block;
   content: "";
@@ -694,7 +694,7 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio__cases .overlay-text {
+.portfolio__overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -705,7 +705,7 @@ a {
   background-color: var(--overlay-background);
 }
 
-.portfolio__cases .portfolio__cases-list:hover .overlay {
+.portfolio__cases-list:hover .overlay {
   transform: translateY(0);
 }
 
