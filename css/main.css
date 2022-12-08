@@ -636,7 +636,7 @@ a {
   padding-left: 0;
 }
 
-.catalogue-list {
+.portfolio__cases-list {
   display: block;
   width: 370px;
 }
@@ -705,7 +705,7 @@ a {
   background-color: var(--overlay-background);
 }
 
-.portfolio__cases .catalogue-list:hover .overlay {
+.portfolio__cases .portfolio__cases-list:hover .overlay {
   transform: translateY(0);
 }
 
