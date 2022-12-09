@@ -784,7 +784,7 @@ a {
   transform: translate(-50%, -50%) scaleX(0.5);
 }
 
-.button-close {
+.modal__button-close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -795,19 +795,18 @@ a {
   background-color: var(--white-color);
   fill: var(--black-color);
   cursor: pointer;
-
   position: absolute;
   right: 8px;
   top: 8px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close:hover,
-.button-close:focus {
+.modal__button-close:hover,
+.modal__button-close:focus {
   fill: var(--accent-color);
 }
 
-.data-form-title {
+.modal__form-title {
   margin: 0;
   margin-bottom: 12px;
   text-align: center;
