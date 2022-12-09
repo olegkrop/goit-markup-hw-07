@@ -6,17 +6,17 @@
     <title>Студія</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!--     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
-    <link
+    /> -->
+    <!--     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -36,9 +36,7 @@
               <a href="./index.html" class="header__text current">Студія</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="header__text"
-                >Портфоліо</a
-              >
+              <a href="./portfolio.html" class="header__text">Портфоліо</a>
             </li>
             <li>
               <a href="#contacts" class="header__text">Контакти</a>
@@ -49,10 +47,7 @@
         <div class="header__contacts">
           <ul class="header__contacts-block">
             <li>
-              <a
-                href="mailto:info@devstudio.com"
-                class="header__contacts-text"
-              >
+              <a href="mailto:info@devstudio.com" class="header__contacts-text">
                 <svg class="header__contacts-icon" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
@@ -72,13 +67,16 @@
       </div>
     </header>
     <main>
-
       <!--Hero-->
 
       <section class="section hero">
         <div class="container hero hero__image">
-          <h1 class="hero__title">Ефективні рішення для <br />вашого бізнесу</h1>
-            <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
+          <h1 class="hero__title">
+            Ефективні рішення для <br />вашого бізнесу
+          </h1>
+          <button type="button" class="hero__button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
 
@@ -215,7 +213,9 @@
               <img src="./images/olga.jpeg" alt="Ольга Рєпіна" width="270" />
               <div class="team__subs">
                 <h3 class="team_person-name">Ольга Рєпіна</h3>
-                <p class="team__person-position" lang="en">Frontend Developer</p>
+                <p class="team__person-position" lang="en">
+                  Frontend Developer
+                </p>
                 <ul class="team__social-cards">
                   <li class="team__social-item">
                     <a class="team__social-link" href="">
@@ -398,7 +398,9 @@
         <div class="footer__container">
           <div>
             <!--Footer Logo-->
-            <a class="logo logo--white footer--logo-bottom-margin" href="./index.html"
+            <a
+              class="logo logo--white footer--logo-bottom-margin"
+              href="./index.html"
               ><span class="logo--left">Web</span>Studio</a
             >
             <!--Footer Contacts-->
@@ -421,7 +423,9 @@
                   >
                 </li>
                 <li>
-                  <a class="footer__contact footer__contact--darkened" href="tel:+380961111111"
+                  <a
+                    class="footer__contact footer__contact--darkened"
+                    href="tel:+380961111111"
                     >+38 096 111 11 11</a
                   >
                 </li>
@@ -474,7 +478,11 @@
                   placeholder="E-mail"
                 />
                 <button class="footer__subscripton-button" type="submit">
-                  Підписатися<svg class="footer__subscripton-icon" width="24" height="24">
+                  Підписатися<svg
+                    class="footer__subscripton-icon"
+                    width="24"
+                    height="24"
+                  >
                     <use href="./images/icons.svg#icon-send"></use>
                   </svg>
                 </button>
@@ -522,17 +530,24 @@
             placeholder="Введіть текст"
           ></textarea>
           <label class="modal__checkbox">
-            <input class="visually-hidden modal__checkbox-status" type="checkbox" name="agreement" />
+            <input
+              class="visually-hidden modal__checkbox-status"
+              type="checkbox"
+              name="agreement"
+            />
             <div class="modal__checkbox-border">
               <svg class="modal__checkbox-icon" width="16" height="15">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
             </div>
             <p class="modal__agreement-text">
-              Погоджуюся з розсилкою та приймаю <a href="#" class="modal__agreement-link">Умови договору</a>
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="modal__agreement-link">Умови договору</a>
             </p>
           </label>
-          <button class="modal__agreement-button" type="submit">Відправити</button>
+          <button class="modal__agreement-button" type="submit">
+            Відправити
+          </button>
         </form>
       </div>
     </div>
