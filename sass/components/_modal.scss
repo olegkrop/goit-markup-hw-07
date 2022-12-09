@@ -60,7 +60,6 @@
   display: block;
   width: 100%;
   height: 466px;
-  margin: 0;
 }
 
 .modal__label {
@@ -96,13 +95,18 @@
     border-color: var(--accent-color);
   }
 }
+
+
 .modal__input:hover + .modal__input-icon,
 .modal__input:focus + .modal__input-icon {
   fill: var(--accent-color);
 }
 
+
+
 .modal__input-icon {
   position: absolute;
+  pointer-events: none;
   left: 12px;
   top: 11px;
   fill: currentColor;
