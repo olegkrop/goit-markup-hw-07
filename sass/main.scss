@@ -284,7 +284,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-
 /* Header syle for <h2> */
 .title {
   font-weight: 700;
@@ -304,11 +303,21 @@ a {
   padding-left: 0;
 }
 
-.wwd-list {
+.wwd__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.174;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  margin-bottom: 50px;
+}
+
+.wwd__item {
   position: relative;
 }
 
-.wwd-text {
+.wwd__text {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -328,24 +337,31 @@ a {
   background-color: var(--team-background);
 }
 
-.team-pad {
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.174;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  margin-bottom: 50px;
+}
+
+.team__subs {
   padding: 30px 32px;
 }
 
-.team .flex {
+.team__cards {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding-left: 0;
 }
 
-.team .item {
+.team__item {
+  background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.team li {
-  background-color: var(--white-color);
 }
 
 .team h3 {
@@ -366,7 +382,7 @@ a {
   margin-bottom: 16px;
 }
 
-.team-social-list {
+.team__social-cards {
   display: flex;
   gap: 10px;
   padding: 0;
@@ -376,12 +392,12 @@ a {
   align-items: center;
 }
 
-.team-social-item {
+.team__social-item {
   width: 44px;
   height: 44px;
 }
 
-.team .round {
+.team__social-link {
   width: 44px;
   height: 44px;
   display: block;
@@ -392,25 +408,35 @@ a {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.round:hover,
-.round:focus {
+.team__social-link:hover,
+.team__social-link:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 
-.team .icon {
+.team__social-icon {
   margin: 12px 0px 0px 12px;
   fill: currentColor;
 }
 
-/* ---------------Clients---------------- */
-.client-list {
+/* Clients */
+.clients__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.174;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  margin-bottom: 50px;
+}
+
+.clients__cards {
   display: flex;
   padding-left: 0;
   gap: 30px;
 }
 
-.client-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -423,12 +449,12 @@ a {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-icon {
+.clients__icon {
   fill: currentColor;
 }
 
-.client-link:hover,
-.client-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
