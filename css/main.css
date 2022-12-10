@@ -187,6 +187,9 @@ a {
 }
 
 /* Hero */
+.hero {
+  padding-bottom: 94px;
+}
 .hero__image {
   background-color: var(--white-color);
   padding: 200px 0;
