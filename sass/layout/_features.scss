@@ -1,8 +1,7 @@
 /* Features */
 .features {
-  display: flex;
-  gap: 30px;
-  padding-left: 0;
+
+  padding-bottom: 94px;
 
   &__card {
     display: flex;
@@ -14,8 +13,8 @@
     margin-right: 0;
     background-color: var(--team-background);
   }
-  
-  &__subtittle {
+
+  &__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -25,9 +24,14 @@
     margin-bottom: 10px;
   }
 
-  &__subtext {
+  &__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
   }
+}
+.features__list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
 }

@@ -234,9 +234,7 @@ a {
 
 /* Features */
 .features {
-  display: flex;
-  gap: 30px;
-  padding-left: 0;
+  padding-bottom: 94px;
 }
 .features__card {
   display: flex;
@@ -248,7 +246,7 @@ a {
   margin-right: 0;
   background-color: var(--team-background);
 }
-.features__subtittle {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -257,10 +255,16 @@ a {
   color: var(--title-color);
   margin-bottom: 10px;
 }
-.features__subtext {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.features__list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
 }
 
 /* What We Do */
