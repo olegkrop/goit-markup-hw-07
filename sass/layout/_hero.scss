@@ -1,8 +1,6 @@
 /* Hero */
 
 .hero {
-  text-align: center;
-
   &__image {
     background-color: var(--white-color);
     padding: 200px 0;
@@ -27,6 +25,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
+    text-align: center;
   }
 
   &__button {

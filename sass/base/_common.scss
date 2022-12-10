@@ -19,5 +19,9 @@
 }
 
 .section {
-  padding: 0 0 94px;
+  padding-bottom: 94px;
+}
+
+.current {
+      color: var(--accent-color);
 }
