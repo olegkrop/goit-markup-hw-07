@@ -1,6 +1,7 @@
 /* Our Team */
 .team {
   background-color: var(--team-background);
+  padding-bottom: 94px;
 
   &__title {
     font-weight: 700;
@@ -12,11 +13,7 @@
     margin-bottom: 50px;
   }
 
-  &__subs {
-    padding: 30px 32px;
-  }
-
-  &__cards {
+  &__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -29,7 +26,11 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
-  &__person-name {
+  &__person-textblock {
+    padding: 30px 32px;
+  }
+
+  &__person-textblock-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -39,7 +40,7 @@
     margin-bottom: 10px;
   }
 
-  &__person-position {
+  &__person-textblock-text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -47,7 +48,7 @@
     margin-bottom: 16px;
   }
 
-  &__social-cards {
+  &__social-list {
     display: flex;
     gap: 10px;
     padding: 0;
