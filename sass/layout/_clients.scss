@@ -1,8 +1,12 @@
 /* Clients */
 
 .clients {
-  display: flex;
-  gap: 30px;
+  padding-bottom: 94px;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
 
   &__title {
     font-weight: 700;
@@ -13,7 +17,6 @@
     color: var(--title-color);
     margin-bottom: 50px;
   }
- 
 
   &__link {
     display: flex;

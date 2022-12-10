@@ -373,6 +373,9 @@ a {
 
 /* Clients */
 .clients {
+  padding-bottom: 94px;
+}
+.clients__list {
   display: flex;
   gap: 30px;
 }
