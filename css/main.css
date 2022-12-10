@@ -267,12 +267,15 @@ a {
   padding-left: 0;
 }
 
-/* What We Do */
-.wwd {
+/* Skills */
+.skills {
+  padding-bottom: 94px;
+}
+.skills__list {
   display: flex;
   gap: 30px;
 }
-.wwd__title {
+.skills__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.174;
@@ -281,10 +284,10 @@ a {
   color: var(--title-color);
   margin-bottom: 50px;
 }
-.wwd__item {
+.skills__item {
   position: relative;
 }
-.wwd__text {
+.skills__text {
   width: 100%;
   position: absolute;
   bottom: 0;

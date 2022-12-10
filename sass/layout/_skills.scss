@@ -1,8 +1,12 @@
-/* What We Do */
+/* Skills */
 
-.wwd {
-  display: flex;
-  gap: 30px;
+.skills {
+  padding-bottom: 94px;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
 
   &__title {
     font-weight: 700;
