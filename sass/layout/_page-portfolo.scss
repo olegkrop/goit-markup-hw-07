@@ -43,21 +43,18 @@
 
 /* Portfolio - the list of cases */
 
-.portfolio__cases {
+.portfolio__card-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.portfolio__cases-list {
+.portfolio__card-item {
   display: block;
   width: 370px;
-/*   &:hover .portfolio__overlay {
-    transform: translateY(0);
-  } */
 }
 
-.portfolio__case-link {
+.portfolio__card-link {
   display: block;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -67,13 +64,13 @@
   }
 }
 
-.portfolio__case-sub {
+.portfolio__card-description {
   padding: 20px 24px;
   border: 1px solid var(--works-background);
   border-top: none;
 }
 
-.portfolio__case-subtittle {
+.portfolio__card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -83,7 +80,7 @@
   margin-bottom: 4px;
 }
 
-.portfolio__case-subtext {
+.portfolio__card-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -93,7 +90,7 @@
 
 /* Portfolio - a case overlay */
 
-.portfolio__overlay-item {
+.portfolio__overlay-block {
   position: relative;
   overflow: hidden;
 }
@@ -120,6 +117,6 @@
   background-color: var(--overlay-background);
 }
 
-.portfolio__cases-list:hover .portfolio__overlay {
+.portfolio__card-item:hover .portfolio__overlay {
   transform: translateY(0);
 }
