@@ -342,7 +342,7 @@
     <!--Footer-->
     <footer class="footer">
       <div class="container">
-        <div class="footer__container">
+        <div class="footer__block">
           <div>
             <!--Footer Logo-->
             <a
@@ -351,11 +351,11 @@
               ><span class="logo--left">Web</span>Studio</a
             >
             <!--Footer Contacts-->
-            <address id="contacts">
+            <address class="footer__address" id="contacts">
               <ul>
                 <li>
                   <a
-                    class="footer__contact footer__contact--bottom-margin"
+                    class="footer__address-contact footer__address-contact--bottom-margin"
                     href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -364,14 +364,14 @@
                 </li>
                 <li>
                   <a
-                    class="footer__contact footer__contact--bottom-margin footer__contact--darkened"
+                    class="footer__address-contact footer__address-contact--bottom-margin footer__contact--darkened"
                     href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
                   <a
-                    class="footer__contact footer__contact--darkened"
+                    class="footer__address-contact footer__address-contact--darkened"
                     href="tel:+380961111111"
                     >+38 096 111 11 11</a
                   >
@@ -379,8 +379,8 @@
               </ul>
             </address>
           </div>
-          <div>
-            <p class="footer__social-call">приєднуйтесь</p>
+          <div class="footer__social">
+            <p class="footer__social-text">приєднуйтесь</p>
             <!--Footer Social Networks List-->
             <ul class="footer__social-list">
               <li class="footer__social-item">
@@ -413,15 +413,15 @@
               </li>
             </ul>
           </div>
-          <div>
-            <form name="subscribe-form" class="footer__subscripton">
+          <div class="footer__subscripton">
+            <form name="subscribe-form">
               <p class="footer__subscripton-call">Підпишіться на розсилку</p>
               <div class="footer__subscripton-block">
                 <input
                   class="footer__subscripton-input"
                   type="email"
                   name="email"
-                  id="email"
+                  id="subs-email"
                   placeholder="E-mail"
                 />
                 <button class="footer__subscripton-button" type="submit">
