@@ -74,6 +74,7 @@ a {
 
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .current {
@@ -187,9 +188,6 @@ a {
 }
 
 /* Hero */
-.hero {
-  padding-bottom: 94px;
-}
 .hero__image {
   background-color: var(--white-color);
   padding: 200px 0;
@@ -233,9 +231,6 @@ a {
 }
 
 /* Features */
-.features {
-  padding-bottom: 94px;
-}
 .features__card {
   display: flex;
   width: 270px;
@@ -245,6 +240,11 @@ a {
   margin-bottom: 30px;
   margin-right: 0;
   background-color: var(--team-background);
+}
+.features__list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
 }
 .features__title {
   font-weight: 700;
@@ -261,15 +261,9 @@ a {
   letter-spacing: 0.03em;
 }
 
-.features__list {
-  display: flex;
-  gap: 30px;
-  padding-left: 0;
-}
-
 /* Skills */
 .skills {
-  padding-bottom: 94px;
+  padding: 0;
 }
 .skills__list {
   display: flex;
@@ -305,7 +299,6 @@ a {
 /* Our Team */
 .team {
   background-color: var(--team-background);
-  padding-bottom: 94px;
 }
 .team__title {
   font-weight: 700;
@@ -376,9 +369,6 @@ a {
 }
 
 /* Clients */
-.clients {
-  padding-bottom: 94px;
-}
 .clients__list {
   display: flex;
   gap: 30px;

@@ -1,8 +1,6 @@
 /* Features */
 .features {
 
-  padding-bottom: 94px;
-
   &__card {
     display: flex;
     width: 270px;
@@ -14,6 +12,11 @@
     background-color: var(--team-background);
   }
 
+  &__list {
+    display: flex;
+    gap: 30px;
+    padding-left: 0;
+  }
   &__title {
     font-weight: 700;
     font-size: 14px;
@@ -29,9 +32,4 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
   }
-}
-.features__list {
-  display: flex;
-  gap: 30px;
-  padding-left: 0;
 }
